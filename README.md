@@ -1,1 +1,1 @@
-# java-messenger
+# A simple CLI Messenger App in Java
