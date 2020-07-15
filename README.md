@@ -13,11 +13,11 @@ As it is based on socket communication, when executing you should specify an ope
 **NOTE:** The server defaults to _localhost_ as the host so you should keep that in mind too.
 
 1. How to start the server
-	* Open a terminal and navigate to the folder (src)
-	* Execute the following command: _java MessageServer "portnumber"_
+	1. Open a terminal and navigate to the folder (src)
+	1. Execute the following command: _java MessageServer "portnumber"_
 2. How to start the client(s)
-	* Open a terminal and navigate to the folder (src)
-	* Execute the following command: _java MessageServerClient localhost "portnumber"_
+	2. Open a terminal and navigate to the folder (src)
+	2. Execute the following command: _java MessageServerClient localhost "portnumber"_
 	
 **Note:** The clients should use the same port number as the server or else they won't be able to communicate
 	
