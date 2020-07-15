@@ -1,23 +1,7 @@
 # A simple CLI Messenger App in Java
 
-## How to compile:
-* Extract the _**src**_ folder
-* Open a terminal and navigate to it
-* Type _**make**_ in the terminal and wait
+## Instructions
 
-## How to run:
-As this app was developed with the CLI in mind it has to be run from it.
-
-As it is based on socket communication, when executing you should specify an open port number.
-
-**NOTE:** The server defaults to _localhost_ as the host so you should keep that in mind too.
-
-1. How to start the server
-  -Open a terminal and navigate to the folder (src)
-  -Execute the following command: _java MessageServer "portnumber"_
-2. How to start the client(s)
-  -Open a terminal and navigate to the folder (src)
-  -Execute the following command: _java MessageServerClient localhost "portnumber"_
-	
-**Note:** The clients should use the same port number as the server or else they won't be able to communicate
-	
+* Once extracted, use the _**make**_ command in the terminal in the _src_ folder
+* To start the server type: _java MessageServer **portnumber**_ in the terminal
+* To start a client type: _java MessageServerClient localhost **portnumber**_ in the terminal
